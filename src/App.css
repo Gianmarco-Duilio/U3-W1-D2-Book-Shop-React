@@ -1,12 +1,30 @@
 #cardStyle {
   height: 100%;
-  -webkit-box-shadow: -1px 14px 21px 0px rgba(255, 251, 251, 0.74);
-  -moz-box-shadow: -1px 14px 21px 0px rgba(255, 255, 255, 0.815);
-  box-shadow: -1px 14px 21px 0px rgba(255, 253, 253, 0.767);
+  border-radius: 20px;
+}
+
+#navbar {
+  color: white;
+  background: none;
+  box-shadow: -1px 14px 21px 0px rgba(100, 100, 100, 0.767);
 }
 #btn {
   margin-top: auto;
+  border-radius: 20px;
 }
+#imgCard {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.cardStyle {
+  -webkit-box-shadow: -1px 14px 21px 0px rgba(255, 251, 251, 0.74);
+  -moz-box-shadow: -1px 14px 21px 0px rgba(255, 255, 255, 0.815);
+  box-shadow: -1px 14px 21px 0px rgba(255, 253, 253, 0.767);
+  border: none;
+  color: white;
+  background: none;
+}
+
 body {
   background-image: radial-gradient(
       circle 8px at 92% 63%,
@@ -87,4 +105,14 @@ body {
       rgb(35, 35, 35) 100%
     );
   background-size: 278px 278px;
+}
+footer {
+  background: none;
+
+  box-shadow: -1px 14px 21px 0px rgba(255, 253, 253, 0.767);
+}
+.border-0 {
+  background: none;
+}
+.footerCol {
 }

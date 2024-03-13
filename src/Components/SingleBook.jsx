@@ -11,14 +11,8 @@ class SingleBook extends Component {
 
     return (
       <>
-        <Card
-          id="cardStyle"
-          style={{
-            backgroundColor: this.state.selected ? "grey" : "white",
-          }}
-          border="light"
-        >
-          <Card.Img variant="top" src={img} className="p-3 rounded-3" />
+        <Card id="cardStyle" className={this.state.selected ? "cardStyle" : ""}>
+          <Card.Img variant="top" src={img} id="imgCard" />
           <Card.Body className="d-flex flex-column">
             <Card.Title>{title}</Card.Title>
             <Card.Text>{price}€</Card.Text>
@@ -32,10 +26,11 @@ class SingleBook extends Component {
                 }))
               }
             >
+              AGGIUNGI AL CARRELLO
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="20"
+                height="20"
                 fill="currentColor"
                 className="bi bi-cart4"
                 viewBox="0 0 16 16"

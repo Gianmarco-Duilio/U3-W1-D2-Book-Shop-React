@@ -4,13 +4,13 @@ import Nav from "react-bootstrap/Nav";
 
 const BookNavbar = function (props) {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar collapseOnSelect expand="lg" id="navbar" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="#" id="brand">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+            width="20"
+            height="20"
             fill="currentColor"
             className="bi bi-book"
             viewBox="0 0 16 16"

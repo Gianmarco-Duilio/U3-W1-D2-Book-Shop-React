@@ -5,10 +5,10 @@ import ListGroup from "react-bootstrap/ListGroup";
 
 const Footer = function () {
   return (
-    <footer className="bg-dark">
-      <Container bg="dark" data-bs-theme="dark">
+    <footer>
+      <Container data-bs-theme="dark">
         <Row className="justify-content-center">
-          <Col xs={4}>
+          <Col xs={4} className="footerCol">
             <ListGroup>
               <ListGroup.Item className="border-0">Copyright</ListGroup.Item>
               <ListGroup.Item className="border-0">
@@ -19,7 +19,7 @@ const Footer = function () {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col xs={4}>
+          <Col xs={4} className="footerCol">
             <ListGroup>
               <ListGroup.Item className="border-0">Contattaci</ListGroup.Item>
               <ListGroup.Item className="border-0">
@@ -30,7 +30,7 @@ const Footer = function () {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col xs={4}>
+          <Col xs={4} className="footerCol">
             <ListGroup>
               <ListGroup.Item className="border-0">
                 Lavora con noi
