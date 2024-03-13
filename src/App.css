@@ -1,41 +1,90 @@
-.App {
-  text-align: center;
+#cardStyle {
+  height: 100%;
+  -webkit-box-shadow: -1px 14px 21px 0px rgba(255, 251, 251, 0.74);
+  -moz-box-shadow: -1px 14px 21px 0px rgba(255, 255, 255, 0.815);
+  box-shadow: -1px 14px 21px 0px rgba(255, 253, 253, 0.767);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn {
+  margin-top: auto;
 }
 body {
-  background-color: #7188b4;
+  background-image: radial-gradient(
+      circle 8px at 92% 63%,
+      rgb(255, 250, 85) 0%,
+      transparent 22%
+    ),
+    radial-gradient(
+      circle 2px at 73% 80%,
+      rgb(201, 242, 255) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      circle 2px at 88% 58%,
+      rgb(201, 242, 255) 0%,
+      transparent 5%
+    ),
+    radial-gradient(
+      circle 2px at 39% 24%,
+      rgb(201, 242, 255) 0%,
+      transparent 17%
+    ),
+    radial-gradient(
+      circle 2px at 31% 10%,
+      rgb(201, 242, 255) 0%,
+      transparent 83%
+    ),
+    radial-gradient(
+      circle 2px at 25% 64%,
+      rgb(201, 242, 255) 0%,
+      transparent 65%
+    ),
+    radial-gradient(
+      circle 2px at 46% 18%,
+      rgb(201, 242, 255) 0%,
+      transparent 86%
+    ),
+    radial-gradient(
+      circle 2px at 27% 89%,
+      rgb(201, 242, 255) 0%,
+      transparent 61%
+    ),
+    radial-gradient(
+      circle 2px at 72% 43%,
+      rgb(201, 242, 255) 0%,
+      transparent 46%
+    ),
+    radial-gradient(
+      circle 2px at 73% 2%,
+      rgb(201, 242, 255) 0%,
+      transparent 87%
+    ),
+    radial-gradient(
+      circle 5px at 94% 33%,
+      rgb(253, 250, 147) 0%,
+      transparent 93%
+    ),
+    radial-gradient(
+      circle 5px at 35% 87%,
+      rgb(253, 250, 147) 0%,
+      transparent 42%
+    ),
+    radial-gradient(circle 4px at 78% 1%, rgb(255, 249, 27) 0%, transparent 76%),
+    radial-gradient(
+      circle 4px at 71% 51%,
+      rgb(255, 249, 27) 0%,
+      transparent 69%
+    ),
+    radial-gradient(
+      circle 4px at 26% 45%,
+      rgb(255, 249, 27) 0%,
+      transparent 83%
+    ),
+    linear-gradient(
+      90deg,
+      rgb(35, 35, 35) 0%,
+      rgb(35, 35, 35) 50%,
+      rgb(35, 35, 35) 50%,
+      rgb(35, 35, 35) 100%
+    );
+  background-size: 278px 278px;
 }

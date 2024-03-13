@@ -16,6 +16,7 @@ function AllMyBooks() {
               bg="dark"
               data-bs-theme="dark"
               border="light"
+              className="shadow "
             >
               <Card.Img
                 variant="top"
